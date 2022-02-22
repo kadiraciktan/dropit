@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
+
+body {
+  background-image: url("/src/assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.gameWindow {
+  margin-top: -10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.borderline {
+  width: 340px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  border: 5px solid white;
+  border-radius: 2px;
+}
+
+.scoreBoard {
+  font-family: "Kufam", sans-serif;
+  color: white;
+  padding: 5px;
+  font-size: 50px;
+}
+
+#mainMenu {
+  width: 340px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+#endGame {
+  display: flex;
+  flex-direction: column;
+}

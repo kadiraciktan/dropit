@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop It</title>
+    <link rel="stylesheet" href="src/assets/css/game.css">
+</head>
+
+<body>
+    <div class="gameWindow">
+        <div class="scoreBoard">
+            <small style="font-size: 20px;margin-left: -50px;">Score</small> <span id="score">000</span>
+        </div>
+
+        <div class="borderline">
+            <div id="gameArea">
+                <div id="mainMenu">
+
+
+                    <div id="endGame" style="display: none;">
+                        <h1 id="win">You Win</h1>
+                        <h3 id="lose" style="display: none;">Game Over</h3>
+                    </div>
+
+
+
+                    <div id="startGame">
+                        <div class="startGameText">
+                            <h1>Drop It !</h1>
+                            <h2>Press Space to start</h2>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script type="module" src="libs/gameLogic.ts"></script>
+
+</html>

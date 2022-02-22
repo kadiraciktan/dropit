@@ -1,0 +1,21 @@
+{
+  "name": "tetrisx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/matter-js": "^0.17.7",
+    "matter-js": "^0.18.0",
+    "parcel": "^2.3.2",
+    "poly-decomp": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.19"
+  }
+}
